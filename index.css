@@ -1,0 +1,125 @@
+:root{
+	--red: red;
+	--white: white;
+	--pink: pink;
+}
+*{
+
+  box-sizing: border-box;
+  font-family: Averta, sans-serif;
+   /* overflow: hidden; */
+
+}
+body{
+	margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+a{
+	text-decoration: none;
+	color: var(--red);
+}
+#pad{
+  padding-bottom: 40px;
+}
+.img1{
+	padding: 160px;
+
+}
+.pad{
+  padding-top: 40px;
+}
+  .container{
+  	background-color: #fffdf1;
+  	margin-bottom: 20px;
+  	padding: 20px;
+  	margin: 15px;
+  }
+  .section1{
+  	text-align: center;
+  	padding: 100px;
+  }
+  #btn1{
+  	background-color: red;
+  	color: white;
+  	padding: 10px;
+  	margin-right: 10px;
+  	border: red 0.5px solid;
+  	font-weight: bold;
+  	width: 250px;
+  	height: 50px;
+  }
+  #btn1:hover {
+  	background-color: var(--white);
+  	color: var(--red);
+  	padding: 10px;
+  	border: var(--red) solid 0.5px;
+  	width: 250px;
+  	height: 50px;
+  }
+  #btn2{
+  	background-color: var(--white);
+  	color: var(--red);
+  	margin-left: 10px;
+  	padding: 10px;
+  	border: var(--red) solid 0.5px;
+  	width: 250px;
+  	height: 50px;
+  }
+  #btn2:hover {
+  	background-color: red;
+  	color: white;
+  	padding: 10px;
+  	border: red 0.5px solid;
+  	font-weight: bold;
+  	width: 250px;
+  	height: 50px;
+  }
+  .section2{
+  	text-align: center;
+  	width: 20%;
+  	margin: auto;
+  	justify-content: center;
+  }
+  .flex{
+  	display: flex;
+  	justify-content: space-around;
+  }
+  h5{
+  	color: var(--red);
+  }
+  .flexit{
+  	display: flex;
+  	justify-content: center;
+  	margin-bottom: 100px;
+  }
+  .clr{
+  	clear: both;
+  }
+  hr{
+  	width: 90%;
+  }
+
+  #copyright{
+  	text-align: center;
+  }
+  .twenty{
+  	width: 20px;
+  }
+
+ @media (max-width: 600px) {
+  .flexit, .flex{
+    display: block;
+  }
+  .flex{
+    text-align: center;
+  }
+  #btn1, #btn2{
+    margin: 20px;
+  }
+}

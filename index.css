@@ -122,4 +122,10 @@ a{
   #btn1, #btn2{
     margin: 20px;
   }
+  #btn1{
+  margin-right:0px;
+  }
+  #btn2{
+  margin-left:0px;
+  }
 }

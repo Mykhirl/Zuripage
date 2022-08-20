@@ -121,5 +121,6 @@ a{
   }
   #btn1, #btn2{
     margin: auto;
+    margin-bottom: 20px;
   }
 }
